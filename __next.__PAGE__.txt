@@ -1,0 +1,16 @@
+1:"$Sreact.fragment"
+2:I[76464,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"ParticleBackground"]
+3:I[80608,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"ScrollProgress"]
+4:I[13474,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Navigation"]
+5:I[85161,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Hero"]
+6:I[66082,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Experience"]
+7:I[80976,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Projects"]
+8:I[14255,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Skills"]
+9:I[71759,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Education"]
+a:I[83316,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Leadership"]
+b:I[15751,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"Contact"]
+c:I[18191,["/personalProtfolio/_next/static/chunks/61f33af8f118a435.js","/personalProtfolio/_next/static/chunks/331f7abc8ea327e5.js","/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js"],"BackToTop"]
+d:I[97367,["/personalProtfolio/_next/static/chunks/42879de7b8087bc9.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+0:{"buildId":"-73emj54zpG8ViGwusYf5","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"relative min-h-screen","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}]]}],[["$","script","script-0",{"src":"/personalProtfolio/_next/static/chunks/f9ebc4fe58f51fa5.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"loading":null,"isPartial":false}
+f:null
