@@ -16,8 +16,14 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
-.env*
+# env files (IMPORTANT: Never commit API keys!)
+.env
+.env.*
+.env.local
+.env.production
+*.env
+backend/.env
+backend/.env.*
 
 # vercel
 .vercel
