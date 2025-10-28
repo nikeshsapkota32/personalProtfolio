@@ -36,6 +36,7 @@ export function AIChat() {
     if (!input.trim() || isLoading) return
 
     const userMessage: Message = { role: "user", content: input }
+    const currentInput = input
     setMessages((prev) => [...prev, userMessage])
     setInput("")
     setIsLoading(true)
@@ -47,7 +48,7 @@ export function AIChat() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          message: input,
+          message: currentInput,
           history: messages.slice(-10), // Send last 10 messages for context
         }),
       })
