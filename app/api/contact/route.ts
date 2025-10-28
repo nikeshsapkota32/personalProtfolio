@@ -1,31 +1,35 @@
 import { NextResponse } from 'next/server';
 
+// Get backend URL from environment or use localhost for development
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, message } = body;
+    
+    // Forward request to Python FastAPI backend
+    const response = await fetch(`${BACKEND_URL}/api/contact`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
+    });
 
-    // Validate input
-    if (!name || !email || !message) {
+    const data = await response.json();
+
+    if (!response.ok) {
       return NextResponse.json(
-        { error: 'All fields are required' },
-        { status: 400 }
+        { error: data.detail || 'Failed to send message' },
+        { status: response.status }
       );
     }
 
-    // TODO: Send email using a service like Resend, SendGrid, or Nodemailer
-    // Example with console log for now:
-    console.log('Contact form submission:', { name, email, message });
-
-    // You can integrate with email services here
-    // For now, returning success
-    return NextResponse.json(
-      { message: 'Message sent successfully!' },
-      { status: 200 }
-    );
+    return NextResponse.json(data, { status: 200 });
   } catch (error) {
+    console.error('Error contacting backend:', error);
     return NextResponse.json(
-      { error: 'Internal server error' },
+      { error: 'Failed to process contact form' },
       { status: 500 }
     );
   }
