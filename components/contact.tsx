@@ -65,7 +65,7 @@ export function Contact() {
 
               <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
                 <a
-                  href="https://linkedin.com/in/your-linkedin-url"
+                  href="https://www.linkedin.com/in/nikesh-sapkota-8405ba219/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -77,7 +77,7 @@ export function Contact() {
 
               <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
                 <a
-                  href="https://github.com/your-github-url"
+                  href="https://github.com/nikeshsapkota32"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
